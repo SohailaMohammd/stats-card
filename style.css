@@ -1,0 +1,54 @@
+.card {
+    width: 955px;
+    height: 450px;
+    background-color: #171f3e;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+
+    .text h1 {
+        transform: translate(58px, 43px);
+        color: white;
+        width: 411px;
+        font-size: 44px;
+
+        span {
+            color: #a85fd9;
+        }
+    }
+
+    .text .article {
+        width: 312px;
+        margin-left: 65px;
+        margin-top: 89px;
+    }
+
+    .group {
+        display: flex;
+        margin-top: 40px;
+        gap: 78px;
+
+        .G1 {
+            margin-left: 68px;
+        }
+    }
+
+    img {
+        width: 650px;
+        transform: translate(78px, 0px);
+        border-radius: 10px;
+    }
+
+    .ground {
+        content: "";
+        position: absolute;
+        top: 7px;
+        left: 558px;
+        background: #8100d76e;
+        ;
+        z-index: 1;
+        width: 545px;
+        border-radius: inherit;
+        height: 451px;
+    }
+}
